@@ -1,0 +1,85 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/vishaldbhat/Desktop/RabbitMQConsumer/RabbitMQ.Consumer/RabbitMQ.Consumer/RabbitMQ.Consumer.csproj": {}
+  },
+  "projects": {
+    "/Users/vishaldbhat/Desktop/RabbitMQConsumer/RabbitMQ.Consumer/RabbitMQ.Consumer/RabbitMQ.Consumer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/vishaldbhat/Desktop/RabbitMQConsumer/RabbitMQ.Consumer/RabbitMQ.Consumer/RabbitMQ.Consumer.csproj",
+        "projectName": "RabbitMQ.Consumer",
+        "projectPath": "/Users/vishaldbhat/Desktop/RabbitMQConsumer/RabbitMQ.Consumer/RabbitMQ.Consumer/RabbitMQ.Consumer.csproj",
+        "packagesPath": "/Users/vishaldbhat/.nuget/packages/",
+        "outputPath": "/Users/vishaldbhat/Desktop/RabbitMQConsumer/RabbitMQ.Consumer/RabbitMQ.Consumer/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/vishaldbhat/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.2, )"
+            },
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.osx-x64",
+              "version": "[3.1.29, 3.1.29]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.401/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
